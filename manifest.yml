@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: codeflow
+      function: main
+      title: CodeFlow
+      description: A tool for generating flowcharts from JavaScript code.
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/523f7299-6a36-4c12-b173-bff643b7a601'
+  name: CodeFlow
